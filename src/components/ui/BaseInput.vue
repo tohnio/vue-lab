@@ -1,7 +1,7 @@
 <script setup lang="ts">
 interface Props {
   label?: string
-  modelValue: string | number
+  modelValue?: string | number
   type?: string
   placeholder?: string
   error?: string
