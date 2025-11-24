@@ -6,6 +6,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
+    "start": "serve -s dist -l 8080",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
@@ -14,6 +15,7 @@
     "axios": "^1.6.0",
     "chart.js": "^4.5.1",
     "pinia": "^2.1.0",
+    "serve": "^14.2.5",
     "vee-validate": "^4.11.0",
     "vue": "^3.3.0",
     "vue-chartjs": "^5.3.3",
