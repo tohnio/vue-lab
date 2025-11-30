@@ -25,6 +25,11 @@ const router = createRouter({
             component: () => import('../views/FeaturesView.vue')
         },
         {
+            path: '/kanban',
+            name: 'kanban',
+            component: () => import('../views/KanbanView.vue')
+        },
+        {
             path: '/forms',
             component: () => import('../views/forms/FormsLayout.vue'),
             children: [

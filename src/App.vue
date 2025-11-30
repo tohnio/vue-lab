@@ -30,6 +30,9 @@ import { RouterView } from 'vue-router'
               <router-link to="/query" class="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 transition-all" active-class="text-indigo-600 bg-indigo-50">
                 API Demo
               </router-link>
+              <router-link to="/kanban" class="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 transition-all" active-class="text-indigo-600 bg-indigo-50">
+                Kanban
+              </router-link>
               <router-link to="/forms" class="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 transition-all" active-class="text-indigo-600 bg-indigo-50">
                 Forms
               </router-link>
